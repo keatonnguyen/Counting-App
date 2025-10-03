@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:padding="16dp">
+
+    <Space
+        android:layout_width="216dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="2" />
+
+    <!-- setting -->
+    <Button
+        style="@style/GrayButton"
+        android:id="@+id/buttonSettings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/settings" />
+
+    <Space
+        android:layout_width="216dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="2" />
+
+    <!-- events -->
+    <Button
+        style="@style/GrayButton"
+        android:id="@+id/buttonA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/event_1" />
+
+    <Button
+        style="@style/GrayButton"
+        android:id="@+id/buttonB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="@string/event_2" />
+
+    <Button
+        style="@style/GrayButton"
+        android:id="@+id/buttonC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="@string/event_3" />
+
+    <!-- Total counts text -->
+    <TextView
+        android:id="@+id/total"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/total_count_label_zero"
+        android:textSize="18sp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_weight="1" />
+
+    <!-- database button -->
+    <Button
+        style="@style/GrayButton"
+        android:id="@+id/buttonDatabase"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="@string/show_my_counts" />
+
+</LinearLayout>

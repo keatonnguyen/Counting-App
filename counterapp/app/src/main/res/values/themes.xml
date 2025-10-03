@@ -1,0 +1,15 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Theme.CounterPad" parent="Theme.Material3.DayNight">
+        <item name="colorPrimary">#555555</item>
+        <item name="colorPrimaryVariant">#555555</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="android:statusBarColor" tools:targetApi="l">#555555</item>
+    </style>
+
+    <style name="GrayButton" parent="Widget.AppCompat.Button">
+        <item name="android:background">#555555</item>
+        <item name="android:stateListAnimator">@null</item>
+    </style>
+
+</resources>

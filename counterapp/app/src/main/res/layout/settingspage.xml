@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingBottom="24dp">
+
+        <!-- Space -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="254dp" />
+
+        <!-- first counter -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/counter1_name_label" />
+
+        <EditText
+            android:id="@+id/name1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_button1_name"
+            android:inputType="textCapWords|textPersonName"
+            android:importantForAutofill="no" />
+
+        <!-- second counter -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/counter2_name_label" />
+
+        <EditText
+            android:id="@+id/name2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_button2_name"
+            android:inputType="textCapWords|textPersonName"
+            android:importantForAutofill="no" />
+
+        <!-- third counter -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/counter3_name_label" />
+
+        <EditText
+            android:id="@+id/name3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_button3_name"
+            android:inputType="textCapWords|textPersonName"
+            android:importantForAutofill="no" />
+
+        <!-- space -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="60dp" />
+
+        <!-- total counts -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/maximum_counts_label" />
+
+        <EditText
+            android:id="@+id/max"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_max_events"
+            android:inputType="number"
+            android:importantForAutofill="no" />
+
+        <!-- save button -->
+        <Button
+            style="@style/GrayButton"
+            android:id="@+id/save"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="@string/save"
+            android:textAllCaps="false"
+            android:visibility="gone" />
+    </LinearLayout>
+</ScrollView>
